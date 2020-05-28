@@ -5,7 +5,7 @@ public class Binary_To_Octal
     public static void binToOctal(long num)
     {  
          int n = 0, decimal = 0;
-	  //converting binary to decimal
+	  //converting binary to decimal conversions
 	  while(num > 0)
 	  {
 	       long temp = num % 10;  
